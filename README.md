@@ -1,4 +1,4 @@
-# name of non-profit
+# Central Coast Heritage Tree Foundation
 
 {One sentence description of the project}
 
