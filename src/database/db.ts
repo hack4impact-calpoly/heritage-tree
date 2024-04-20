@@ -10,7 +10,9 @@ let connection: typeof mongoose;
  */
 const connectDB = async () => {
   if (!connection) {
-    connection = await mongoose.connect(url);
+    connection = await mongoose.connect(url, {
+      dbName:"cchtf"
+    });
     return connection;
   }
 };
